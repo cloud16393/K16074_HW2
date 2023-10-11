@@ -41,7 +41,7 @@ jobs:
         mode: 'code-change'
         sanitizer: ${{ matrix.sanitizer }}
         output-sarif: true
-        # Optional but recommended: used to download the corpus produced by
+        # Optional but recommended: used to download the corpus produced bydd
         # batch fuzzing.
         # See later section on "Git repo for storage".
         # storage-repo: https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/OWNER/STORAGE-REPO-NAME.git
